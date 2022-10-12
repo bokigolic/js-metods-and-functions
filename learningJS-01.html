@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<h1 id="test">JS practice</h1>
+
+<script>
+  // write function to add all numbers in array and give 627
+  let arr_1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; // --> 276
+  let arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26]; // --> 351
+  // Example output: 276 + 351 = 627
+  let sum = 0;
+  for (let i = 0; i < arr_1.length; i++){
+     sum += parseInt(arr_1[i])
+  }
+  let sum1 = 0;
+  for (let i = 0; i < arr_2.length; i++){
+     sum += parseInt(arr_2[i])
+  }
+
+  console.log(sum + sum1)
+  </script>
+
+
+
+
+
+
+
+  <!--Using a for loop print all even numbers up to and including n. Don’t include 0.
+
+  let n1 = 22; 
+  // Example output: 
+  // 2 4 6 8 10 12 14 16 18 20 22 OR each item on a new line
+  -->
+  <script>
+    const n = 22;
+    for (i = 0; i <= n.leng; i++) {
+      if (i % 2 == 0) {
+        console.log("The number is odd")
+      } else {
+        console.log("The number is even")
+      }
+    }
+  </script>
+</html>
